@@ -5,7 +5,7 @@ public class Calculator {
         int res = a + b;
         for (int r : c
              ) {
-            res += r;
+            res = res + r;
         }
         return res;
     }
