@@ -19,7 +19,7 @@ class IncrementOperator {
 
     static void main(String []args) {
         def f = new Account(11)
-        ++f
+        f+=1
         println "The  increment value is $f.value"
 
         --f
